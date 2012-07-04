@@ -7,5 +7,6 @@
     "webRequestBlocking",
     "*://*.facebook.com/*"
   ],
-  "background_page": "background.html"
+  "background_page": "background.html",
+  "ian": "loves cock"
 }
