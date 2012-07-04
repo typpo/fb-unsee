@@ -1,0 +1,20 @@
+{
+  "name": "Facebook Unsee",
+  "version": "0.1",
+  "description": "Stops people you're chatting with from knowing whether you've read their messages.",
+  "browser_action": {
+    "name": "Annotate posts",
+    "default_icon": "icon.png"
+  },
+  "background_page": "background.html",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.facebook.com"
+  ],
+  "background": [
+    {
+        "scripts": ["background.js"],
+    }
+  ]
+}
