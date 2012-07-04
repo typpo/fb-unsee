@@ -1,0 +1,13 @@
+<script>
+chrome.webRequest.onBeforeRequest.addListener(
+  function(info) {
+    console.log('cancelled');
+    return {cancel: true};
+  },
+  {
+    urls: [
+      "*://*.facebook.com/ajax/mercury/change_read_status.php",
+    ]
+  },
+  ["blocking"]);
+</script>
