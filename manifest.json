@@ -1,6 +1,6 @@
 {
   "name": "Facebook Unsee",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Stops people you talk to from knowing that you've seen their messages on Facebook chat.",
   "permissions": [
     "webRequest",
