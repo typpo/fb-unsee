@@ -1,4 +1,3 @@
-<script>
 chrome.webRequest.onBeforeRequest.addListener(
   function(info) {
     console.info('Read status request blocked');
@@ -8,4 +7,3 @@ chrome.webRequest.onBeforeRequest.addListener(
     urls: ["*://*.facebook.com/ajax/mercury/change_read_status.php*",]
   },
   ["blocking"]);
-</script>
